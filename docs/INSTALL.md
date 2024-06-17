@@ -1,2 +1,2 @@
-## Pre-training MAE
+## Install of SelectiveMAE
 
