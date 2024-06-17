@@ -46,11 +46,11 @@ which significantly accelerates convergence and enhances representation learning
 
 ## Outline
 
-- [RS-4M](#bar_chart-benchmark-definition)
+- [RS-4M](##RS-4M)
 - [Installation](#gear-installation)
-- [Data Preparation](#hotsprings-data-preparation)
-- [Getting Started](#rocket-getting-started)
-- [Benchmark](#golf-benchmark)
+- [Getting Started](###gear-Installation)
+- [Pretrain](###blue_car-Pretraining)
+- [Downstream Tasks](#rocket-Results-on-downstream-tasks)
 - [Citation](#citation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
