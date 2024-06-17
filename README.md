@@ -48,8 +48,8 @@ which significantly accelerates convergence and enhances representation learning
 
 - [RS-4M](#RS-4M)
 - [Installation](#gear-installation)
-- [Pretrain](#blue_car-Pretraining)
-- [Downstream Tasks](#rocket-Results-on-downstream-tasks)
+- [Pretraining](#blue_car-Pretraining)
+- [Downstream Tasks](#rocket-Results on downstream tasks)
 - [Citation](#citation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
