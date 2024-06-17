@@ -40,7 +40,7 @@ which significantly accelerates convergence and enhances representation learning
 
 ## Updates
 
-- \[2024.06\] - The training logs of the SelectiveMAE and the codes of classification in fintuning have been released.
+- \[2024.06\] - The training logs of the SelectiveMAE have been released.
 
 
 
