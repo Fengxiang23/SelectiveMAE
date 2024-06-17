@@ -73,7 +73,7 @@ For comparison, we use the [**MillionAID**](https://captain-whu.github.io/DiRS/)
 |   RS-4M    |     [Weights](https://pan.baidu.com/s/1-6HBRbAyHMUrTSwcSOIhyw?pwd=0330)      |   2 million   |  400  |      96.64/98.10      |         91.80/94.31         |           73.90           |       65.95       |   52.86  |     79.37    |
 |   RS-4M    |     [Weights](https://pan.baidu.com/s/1S_oTibDouAi-VrmESn7qPg?pwd=0330)      |   3 million   |  267  |      96.67/98.18      |         92.24/94.41         |           75.40           |       67.07       |   52.39  |     79.37    |
 |   RS-4M    |     [Weights](https://pan.baidu.com/s/1zmS24CqFo44Rkkkl2YqeaQ?pwd=0330)      |   4 million   |  200  |      96.10/98.03      |         92.38/94.30         |           74.70           |       66.26       |   52.75  |     79.23    |
-|   RS-4M    |     [Weights](https://pan.baidu.com/s/1Qrgtv7Dotfb_QQ2GCk6bog?pwd=0330)      |   4 million   |  800  |      **96.88/98.22**      |         **92.44/94.43**         |           **75.40**           |      ** 67.35**       |   **52.80**  |    ** 79.41**    |
+|   RS-4M    |     [Weights](https://pan.baidu.com/s/1Qrgtv7Dotfb_QQ2GCk6bog?pwd=0330)      |   4 million   |  800  |      **96.88/98.22**      |         **92.44/94.43**         |           **75.40**           |      **67.35**       |   **52.80**  |    **79.41**    |
 
 
 ## SelectiveMAE
@@ -105,8 +105,8 @@ To learn more usage about the pretraining codes, kindly refer to [PRETRAIN.md](d
 | SatLas       |   ICCV'23   |   Swin-B   |      94.96/97.38      |    92.16/94.70    |    74.10   |    67.59   |       -      |      -     |
 | GFM          |   ICCV'23   |   Swin-B   |      95.47/97.09      |    92.73/94.64    |    72.84   |    67.67   |       -      |      -     |
 | RVSA         |   TGRS'23   | ViT-B+RVSA |      97.03/98.50      |    93.93/95.69    |    75.80   |    68.06   |     51.95    |      -     |
-| [SelectiveMAE](https://pan.baidu.com/s/1Y4WBj35-HAKeZJe125TG8Q?pwd=0330) |      -      |    ViT-B   |      96.78/98.12      |    93.35/94.58    |    75.70   |    67.78   |     53.05    |   ** 79.50 **  |
-| [SelectiveMAE ](https://pan.baidu.com/s/1miSlmoeZLjzc_WgXE87Fxg?pwd=0330)|      -      |    ViT-L   |     ** 97.25/98.48 **     |    **94.57/95.77**    |   ** 77.80 **  |    **70.31**   |     **54.31  **  |    79.46   |
+| [SelectiveMAE](https://pan.baidu.com/s/1Y4WBj35-HAKeZJe125TG8Q?pwd=0330) |      -      |    ViT-B   |      96.78/98.12      |    93.35/94.58    |    75.70   |    67.78   |     53.05    |   **79.50**  |
+| [SelectiveMAE ](https://pan.baidu.com/s/1miSlmoeZLjzc_WgXE87Fxg?pwd=0330)|      -      |    ViT-L   |     **97.25/98.48**     |    **94.57/95.77**    |   **77.80**  |    **70.31**   |     **54.31**  |    79.46   |
 
 ## License
 
