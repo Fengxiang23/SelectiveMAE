@@ -108,3 +108,8 @@ To learn more usage about the pretraining codes, kindly refer to [PRETRAIN.md](d
 | [SelectiveMAE](https://pan.baidu.com/s/1Y4WBj35-HAKeZJe125TG8Q?pwd=0330) |      -      |    ViT-B   |      96.78/98.12      |    93.35/94.58    |    75.70   |    67.78   |     53.05    |    79.50   |
 | [SelectiveMAE ](https://pan.baidu.com/s/1miSlmoeZLjzc_WgXE87Fxg?pwd=0330)|      -      |    ViT-L   |      97.25/98.48      |    94.57/95.77    |    77.80   |    70.31   |     54.31    |    79.46   |
 
+## License
+
+This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific operations in this codebase might be with other licenses. Please refer to [LICENSE.md](docs/LICENSE.md) for a more careful check, if you are using our code for commercial matters.
+
+## Acknowledgements
