@@ -49,7 +49,7 @@ which significantly accelerates convergence and enhances representation learning
 - [RS-4M](#RS-4M)
 - [Installation](#gear-installation)
 - [Pretraining](#blue_car-Pretraining)
-- [Downstream Tasks](#rocket-Results on downstream tasks)
+- [Downstream Tasks](#rocket-Results-on-downstream-tasks)
 - [Citation](#citation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -88,7 +88,7 @@ For details related to installation, kindly refer to [INSTALL.md](docs/INSTALL.m
 To learn more usage about the pretraining codes, kindly refer to [PRETRAIN.md](docs/GET_STARTED.md).
 
 
-### :rocket:  Results on downstream tasks
+### :rocket: Results on downstream tasks
 
 | Model        | Publication |  Backbone  | Sence  Classification | Sence  Classification  |   Object Detection  |      Object Detection        |   Semantic Segmentation   |    Semantic Segmentation         |
 |--------------|:-----------:|:----------:|:---------------------:|:-----------------:|:----------:|:----------:|:------------:|:----------:|
