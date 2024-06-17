@@ -94,7 +94,7 @@ To learn more usage about the pretraining codes, kindly refer to [PRETRAIN.md](d
 | Model        | Publication |  Backbone  | Sence  Classification | Sence  Classification  |   Object Detection  |      Object Detection        |   Semantic Segmentation   |    Semantic Segmentation         |
 |--------------|:-----------:|:----------:|:---------------------:|:-----------------:|:----------:|:----------:|:------------:|:----------:|
 |              |             |            |          AID          |     RESISC-45     |    DIOR    |   DIOR-R   |    LoveDA    | SpaceNetv1 |
-|              |             |            |    OA (TR=20%/50%)    | OA (TR=20%/50%)    |         mAP50     |         mAP50          mIoU     |     mF1    |
+|              |             |            |    OA (TR=20%/50%)    | OA (TR=20%/50%)   |   mAP50    | mAP50      |     mIoU     |   mF1      |
 | SeCo         |   ICCV'21   |  ResNet-50 |      93.47/95.99      |    89.64/92.91    |      -     |      -     |     43.63    |    77.09   |
 | GASSL        |   ICCV'21   |  ResNet-50 |      93.55/95.92      |    90.86/93.06    |    67.40   |    65.65   |     48.76    |    78.51   |
 | TOV          |  JSTARS'23  |  ResNet-50 |      95.16/97.09      |    90.97/93.79    |    70.16   |    66.33   |     49.70    |      -     |
