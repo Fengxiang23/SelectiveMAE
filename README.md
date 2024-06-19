@@ -56,7 +56,7 @@ which significantly accelerates convergence and enhances representation learning
 
 
 ## RS-4M
- `RS-4M` dataset containing about 4 million high-quality remote sensing optical images, which is four times larger than previous representative remote sensing datasets.
+ `RS-4M` dataset contains about 4 million high-quality remote sensing optical images, which is four times larger than previous representative remote sensing datasets.
 
 ### Examples of RS-4M
 <img src="./Figures/RS-4M.png" width="700"> 
