@@ -31,7 +31,7 @@ which significantly accelerates convergence and enhances representation learning
 
 ## Todo List
 - [x] Initial release of checkpoint of SelectiveMAE. 🚀
-- [x] Pretraining codes and configs for SelectiveMAE will be released.🚀
+- [x] Pretraining codes and configs for SelectiveMAE have be released.🚀
 - [ ] Codes and configs for downstream tasks of SelectiveMAE, Scene Classification. 
 - [ ] Codes and configs for downstream tasks of SelectiveMAE, Object Detection and Semantic Segmentation. 
 - [ ] OpticalRS-4M dataset will be released.
