@@ -22,16 +22,16 @@
 <sup>6</sup>The University of Sydney
   </p>
 
-## Intruduction
+## 🎯Intruduction
 -  `Dataset`: `OpticalRS-13M` is a large-scale remote sensing dataset. This dataset, comprising 13 million optical images, 
 is designed to fully leverage the representation learning capabilities of MIM methods in RS applications, distinguished by its diverse scene details. We also offer a light version, named `OpticalRS-4M`.</br>
 - `SelectiveMAE`: A novel and efficient MIM method tailored for remote sensing images. This method incorporates a new PSTS module,
 which significantly accelerates convergence and enhances representation learning compared to the original MIM approach.
 
 
-## Todo List
-- [x] Initial release of checkpoint of SelectiveMAE. 🚀
-- [x] Pretraining codes and configs for SelectiveMAE have be released. 🚀
+## ✅ Todo List
+- [x] Initial release of checkpoint of SelectiveMAE. 
+- [x] Pretraining codes and configs for SelectiveMAE have be released. 
 - [ ] OpticalRS-4M dataset has be released. 
 - [ ] OpticalRS-13M dataset will be released. 
 - [ ] Codes and configs for downstream tasks of SelectiveMAE, Scene Classification. 
@@ -39,7 +39,7 @@ which significantly accelerates convergence and enhances representation learning
 
 
 
-## News
+## 🔥 News
 
 - \[2025.06\] - The pretraining codes of the SelectiveMAE have been released.
 - \[2024.06\] - Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
@@ -47,7 +47,7 @@ which significantly accelerates convergence and enhances representation learning
 
 
 
-## Outline
+## 📚 Contents
 
 - [OpticalRS-4M](#OpticalRS-4M)
 - [OpticalRS-13M](#OpticalRS-13M)
@@ -59,7 +59,7 @@ which significantly accelerates convergence and enhances representation learning
 - [Acknowledgements](#acknowledgements)
 
 
-## OpticalRS-4M
+## 🚀 OpticalRS-4M
 ### Usage
 `OpticalRS-4M` available on 🤗HuggingFace via [OpticalRS-4M](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
 
@@ -87,10 +87,10 @@ For comparison, we use the [**MillionAID**](https://captain-whu.github.io/DiRS/)
 |   OpticalRS-4M    |     [Weights](https://pan.baidu.com/s/1Qrgtv7Dotfb_QQ2GCk6bog?pwd=0330)      |   4 million   |  800  |      **96.88/98.22**      |         **92.44/94.43**         |           **75.40**           |      **67.35**       |   **52.80**  |    **79.41**    |
 
 
-## OpticalRS-13M
+## 🚀 OpticalRS-13M
 `OpticalRS-13M` available on 🤗HuggingFace via [OpticalRS-13M](https://huggingface.co/datasets/initiacms/OpticalRS-13M). Follow OpticalRS-4M to unzip.
 
-## SelectiveMAE
+## 🚀 SelectiveMAE
 
 ### :gear: Installation for Pretraining
 Please install the pretraining dependencies in `SelectiveMAE/requirements.txt`:
@@ -133,17 +133,18 @@ First, download the corresponding dataset, then set `opticalrs-4m` or `opticalrs
 
 
 # 🔗Citation
-If you find RoMA helpful, please consider citing:
+If you find SelectiveMAE helpful, please consider citing:
 
 ```latex
-@article{wang2025roma,
-  title={RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing},
-  author={Fengxiang Wang and Hongzhen Wang and Yulin Wang and Di Wang and Mingshuo Chen and Haiyan Zhao and Yangang Sun and Shuo Wang and Long Lan and Wenjing Yang and Jing Zhang},
-  journal={arXiv preprint arXiv:2503.10392},
-  year={2025}
+@article{wang2024scaling,
+  title={Scaling efficient masked autoencoder learning on large remote sensing dataset},
+  author={Wang, Fengxiang and Wang, Hongzhen and Wang, Di and Guo, Zonghao and Zhong, Zhenyu and Lan, Long and Zhang, Jing and Liu, Zhiyuan and Sun, Maosong},
+  journal={arXiv e-prints},
+  pages={arXiv--2406},
+  year={2024}
 }
 ```
 
-## License
+## 🤝 License
 
 This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific operations in this codebase might be with other licenses. Please refer to [LICENSE.md](docs/LICENSE.md) for a more careful check, if you are using our code for commercial matters.
