@@ -23,8 +23,8 @@
   </p>
 
 ## Intruduction
--  `OpticalRS-4M`: A large-scale remote sensing dataset. This dataset, comprising 4 million optical images, 
-is designed to fully leverage the representation learning capabilities of MIM methods in RS applications, distinguished by its diverse scene details.</br>
+-  `OpticalRS-13M`: A large-scale remote sensing dataset. This dataset, comprising 13 million optical images, 
+is designed to fully leverage the representation learning capabilities of MIM methods in RS applications, distinguished by its diverse scene details. We also offer a light version, named `OpticalRS-4M`.</br>
 - `SelectiveMAE`: A novel and efficient MIM method tailored for remote sensing images. This method incorporates a new PSTS module,
 which significantly accelerates convergence and enhances representation learning compared to the original MIM approach.
 
