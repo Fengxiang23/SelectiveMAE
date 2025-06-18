@@ -59,7 +59,17 @@ which significantly accelerates convergence and enhances representation learning
 ## OpticalRS-4M
  `OpticalRS-4M` dataset contains about 4 million high-quality remote sensing optical images.
 
-### Download 
+### Usage
+`OpticalRS-4M` available on 🤗HuggingFace via [OpticalRS-4M](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
+
+Use the following command to unzip:
+```bash
+# if 7z is available
+7z x OpticalRS-4M.zip
+# if zip and unzip is available
+zip -s 0 OpticalRS-4M.zip --out whole.zip
+unzip whole.zip
+```
 
 ### Experiments on OpticalRS-4M
 OpticalRS-4M offers a significantly larger and more diverse image set compared to previous datasets. To evaluate its effectiveness, we pre-train a **ViT-Base** model using the vanilla **MAE** method. 
@@ -79,7 +89,8 @@ For comparison, we use the [**MillionAID**](https://captain-whu.github.io/DiRS/)
 ## OpticalRS-13M
  `OpticalRS-13M` dataset contains about 13 million high-quality remote sensing optical images.
 
-### Download 
+### Usage
+`OpticalRS-13M` available on 🤗HuggingFace via [OpticalRS-13M](https://huggingface.co/datasets/initiacms/OpticalRS-13M). Follow [OpticalRS-4M](#usage) to unzip.
 
 ### Examples of OpticalRS-4M
 
