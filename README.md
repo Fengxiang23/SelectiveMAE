@@ -23,7 +23,7 @@
   </p>
 
 ## Intruduction
--  `RS-4M`: A large-scale remote sensing dataset. This dataset, comprising 4 million optical images, 
+-  `OpticalRS-4M`: A large-scale remote sensing dataset. This dataset, comprising 4 million optical images, 
 is designed to fully leverage the representation learning capabilities of MIM methods in RS applications, distinguished by its diverse scene details.</br>
 - `SelectiveMAE`: A novel and efficient MIM method tailored for remote sensing images. This method incorporates a new PSTS module,
 which significantly accelerates convergence and enhances representation learning compared to the original MIM approach.
@@ -31,10 +31,10 @@ which significantly accelerates convergence and enhances representation learning
 
 ## Todo List
 - [x] Initial release of checkpoint of SelectiveMAE. 🚀
-- [ ] Codes and configs for downstream tasks of SelectiveMAE, Scene Classification. 🚀
+- [x] Pretraining codes and configs for SelectiveMAE will be released.🚀
+- [ ] Codes and configs for downstream tasks of SelectiveMAE, Scene Classification. 
 - [ ] Codes and configs for downstream tasks of SelectiveMAE, Object Detection and Semantic Segmentation. 
-- [ ] Pretraining codes and configs for SelectiveMAE will be released.
-- [ ] RS-4M dataset will be released.
+- [ ] OpticalRS-4M dataset will be released.
 
 
 
@@ -46,7 +46,7 @@ which significantly accelerates convergence and enhances representation learning
 
 ## Outline
 
-- [RS-4M](#RS-4M)
+- [OpticalRS-4M](#OpticalRS-4M)
 - [Installation](#gear-installation)
 - [Pretraining](#blue_car-Pretraining)
 - [Downstream Tasks](#rocket-Results-on-downstream-tasks)
@@ -55,25 +55,25 @@ which significantly accelerates convergence and enhances representation learning
 - [Acknowledgements](#acknowledgements)
 
 
-## RS-4M
- `RS-4M` dataset contains about 4 million high-quality remote sensing optical images, which is four times larger than previous representative remote sensing datasets.
+## OpticalRS-4M
+ `OpticalRS-4M` dataset contains about 4 million high-quality remote sensing optical images, which is four times larger than previous representative remote sensing datasets.
 
-### Examples of RS-4M
-<img src="./Figures/RS-4M.png" width="700"> 
+### Examples of OpticalRS-4M
+<img src="./Figures/OpticalRS-4M.png" width="700"> 
 
-### Experiments on RS-4M
-RS-4M offers a significantly larger and more diverse image set compared to previous datasets. To evaluate its effectiveness, we pre-train a **ViT-Base** model using the vanilla **MAE** method. 
-For comparison, we use the [**MillionAID**](https://captain-whu.github.io/DiRS/) dataset, maintaining an equal number of data points during training: 800 epochs for **MillionAID**'s 1 million images and 200 epochs for our **RS-4M** dataset.
+### Experiments on OpticalRS-4M
+OpticalRS-4M offers a significantly larger and more diverse image set compared to previous datasets. To evaluate its effectiveness, we pre-train a **ViT-Base** model using the vanilla **MAE** method. 
+For comparison, we use the [**MillionAID**](https://captain-whu.github.io/DiRS/) dataset, maintaining an equal number of data points during training: 800 epochs for **MillionAID**'s 1 million images and 200 epochs for our **OpticalRS-4M** dataset.
 
 |  Dataset   | Pretrained model | Images Number | Epoch | Sence  Classification |    Sence  Classification    |    Object  Detection      |     Object  Detection    | Semantic Segmentation | Semantic Segmentation|
 |:----------:|:----------------:|:-------------:|:-----:|:---------------------:|:---------------------------:|:-------------------------:|:-----------------:|:--------:|:------------:|
 |            |                  |               |       |          AID          |          RESISC-45          |           DIOR            |      DIOR-R       |  LoveDA  |  SpaceNetv1  |
 |            |                  |               |       |  OA (TR=20%/50%)    |       OA (TR=20%/50%)       |           mAP50           |       mAP50       |   mIoU   |      mF1     |
 | MillionAID |     [Weights](https://pan.baidu.com/s/1OCl7whWnYoyrAI8zha_Kbg?pwd=0330)      |   1 million   |  800  |      94.92/97.38      |         89.20/93.60         |           71.80           |       62.33       |   51.24  |     79.24    |
-|   RS-4M    |     [Weights](https://pan.baidu.com/s/1-6HBRbAyHMUrTSwcSOIhyw?pwd=0330)      |   2 million   |  400  |      96.64/98.10      |         91.80/94.31         |           73.90           |       65.95       |   52.86  |     79.37    |
-|   RS-4M    |     [Weights](https://pan.baidu.com/s/1S_oTibDouAi-VrmESn7qPg?pwd=0330)      |   3 million   |  267  |      96.67/98.18      |         92.24/94.41         |           75.40           |       67.07       |   52.39  |     79.37    |
-|   RS-4M    |     [Weights](https://pan.baidu.com/s/1zmS24CqFo44Rkkkl2YqeaQ?pwd=0330)      |   4 million   |  200  |      96.10/98.03      |         92.38/94.30         |           74.70           |       66.26       |   52.75  |     79.23    |
-|   RS-4M    |     [Weights](https://pan.baidu.com/s/1Qrgtv7Dotfb_QQ2GCk6bog?pwd=0330)      |   4 million   |  800  |      **96.88/98.22**      |         **92.44/94.43**         |           **75.40**           |      **67.35**       |   **52.80**  |    **79.41**    |
+|   OpticalRS-4M    |     [Weights](https://pan.baidu.com/s/1-6HBRbAyHMUrTSwcSOIhyw?pwd=0330)      |   2 million   |  400  |      96.64/98.10      |         91.80/94.31         |           73.90           |       65.95       |   52.86  |     79.37    |
+|   OpticalRS-4M    |     [Weights](https://pan.baidu.com/s/1S_oTibDouAi-VrmESn7qPg?pwd=0330)      |   3 million   |  267  |      96.67/98.18      |         92.24/94.41         |           75.40           |       67.07       |   52.39  |     79.37    |
+|   OpticalRS-4M    |     [Weights](https://pan.baidu.com/s/1zmS24CqFo44Rkkkl2YqeaQ?pwd=0330)      |   4 million   |  200  |      96.10/98.03      |         92.38/94.30         |           74.70           |       66.26       |   52.75  |     79.23    |
+|   OpticalRS-4M    |     [Weights](https://pan.baidu.com/s/1Qrgtv7Dotfb_QQ2GCk6bog?pwd=0330)      |   4 million   |  800  |      **96.88/98.22**      |         **92.44/94.43**         |           **75.40**           |      **67.35**       |   **52.80**  |    **79.41**    |
 
 
 ## SelectiveMAE
