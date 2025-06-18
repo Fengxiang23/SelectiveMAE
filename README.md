@@ -88,12 +88,7 @@ For comparison, we use the [**MillionAID**](https://captain-whu.github.io/DiRS/)
 
 
 ## OpticalRS-13M
- `OpticalRS-13M` dataset contains about 13 million high-quality remote sensing optical images.
-
-### Usage
 `OpticalRS-13M` available on 🤗HuggingFace via [OpticalRS-13M](https://huggingface.co/datasets/initiacms/OpticalRS-13M). Follow OpticalRS-4M to unzip.
-
-### Examples of OpticalRS-4M
 
 ## SelectiveMAE
 
