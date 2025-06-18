@@ -78,14 +78,23 @@ For comparison, we use the [**MillionAID**](https://captain-whu.github.io/DiRS/)
 
 ## SelectiveMAE
 
-### :gear: Installation
+### :gear: Installation for Pretraining
+Please install the pretraining dependencies in `SelectiveMAE/requirements.txt`:
+```sh
+# Optionally create a conda environment
+conda create -n selectivemae python=3.10 -y
+conda activate selectivemae
+# Install dependencies
+pip install -r requirements.txt
+```
 
-For details related to installation, kindly refer to [INSTALL.md](docs/INSTALL.md).
+###  :blue_car:  Pretraining for SelectiveMAE
 
-
-###  :blue_car:  Pretraining
-
-To learn more usage about the pretraining codes, kindly refer to [PRETRAIN.md](docs/GET_STARTED.md).
+To pre-train ViT-Base, run the following on 8 GPUs:
+```sh
+torchrun --nproc_per_node=8 --nnodes 1 --master_port 16666 main_pretrain.py --batch_size 256 --selectivemae --dataset opticalrs-4m --dataset_path 'your_dataset_path' --model mae_vit_base_patch16 --output_dir output --norm_pix_loss --blr 1.5e-4 --weight_decay 0.05  --num_workers 12  --decoder_depth 12 --mask_ratio 0.85 --kept_mask_ratio 0.25 --epochs 800 --warmup_epochs 30
+```
+First, download the corresponding dataset, then set `opticalrs-4m` or `opticalrs-13m`, and update the dataset path accordingly. To train ViT-Small or ViT-Large, set `--model mae_vit_small_patch16` or `--model mae_vit_large_patch16`. You can use `--accum_iter` to perform gradient accumulation if your hardware could not fit the batch size. [FlashAttention 2](https://github.com/Dao-AILab/flash-attention) should be installed with `pip install flash-attn --no-build-isolation`.
 
 
 ### :rocket: Results on downstream tasks
