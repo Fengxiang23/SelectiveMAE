@@ -10,7 +10,7 @@
     Zonghao Guo<sup>4</sup></br>
     Zhenyu Zhong<sup>5</sup>&nbsp;&nbsp;&nbsp;
     Long Lan<sup>1,‡</sup>&nbsp;&nbsp;
-    Jing Zhang<sup>6</sup>&nbsp
+    Jing Zhang<sup>6,‡</sup>&nbsp
     Zhiyuan Liu<sup>2</sup> &nbsp;&nbsp;
     Maosong Sun<sup>2</sup>&nbsp;&nbsp;&nbsp;
     </br></br>
@@ -32,13 +32,14 @@ which significantly accelerates convergence and enhances representation learning
 ## Todo List
 - [x] Initial release of checkpoint of SelectiveMAE. 🚀
 - [x] Pretraining codes and configs for SelectiveMAE have be released. 🚀
-- [ ] Codes and configs for downstream tasks of SelectiveMAE, Scene Classification. 
-- [ ] Codes and configs for downstream tasks of SelectiveMAE, Object Detection and Semantic Segmentation.
 - [ ] OpticalRS-4M dataset has be released. 
 - [ ] OpticalRS-13M dataset will be released. 
+- [ ] Codes and configs for downstream tasks of SelectiveMAE, Scene Classification. 
+- [ ] Codes and configs for downstream tasks of SelectiveMAE, Object Detection and Semantic Segmentation.
 
 
-## Updates
+
+## News
 
 - \[2025.06\] - The pretraining codes of the SelectiveMAE have been released.
 - \[2024.06\] - Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
@@ -59,8 +60,6 @@ which significantly accelerates convergence and enhances representation learning
 
 
 ## OpticalRS-4M
- `OpticalRS-4M` dataset contains about 4 million high-quality remote sensing optical images.
-
 ### Usage
 `OpticalRS-4M` available on 🤗HuggingFace via [OpticalRS-4M](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
 
