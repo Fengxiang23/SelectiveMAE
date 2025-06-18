@@ -41,6 +41,7 @@ which significantly accelerates convergence and enhances representation learning
 ## Updates
 
 - \[2025.06\] - The pretraining codes of the SelectiveMAE have been released.
+- \[2024.06\] - Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
 - \[2024.06\] - The training logs of the SelectiveMAE have been released.
 
 
