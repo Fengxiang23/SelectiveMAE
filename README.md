@@ -34,8 +34,8 @@ which significantly accelerates convergence and enhances representation learning
 - [x] Pretraining codes and configs for SelectiveMAE have be released. 
 - [x] OpticalRS-4M dataset has be released. 
 - [ ] OpticalRS-13M dataset will be released. 
-- [ ] Codes and configs for downstream tasks of SelectiveMAE, Scene Classification. 
-- [ ] Codes and configs for downstream tasks of SelectiveMAE, Object Detection and Semantic Segmentation.
+- [ ] Codes and configs for downstream tasks of Scene Classification. 
+- [ ] Codes and configs for downstream tasks of Object Detection and Semantic Segmentation.
 
 
 
