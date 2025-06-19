@@ -25,7 +25,7 @@
     📃 <a href="https://arxiv.org/abs/2406.11933" target="_blank">Paper</a> |
     🤗 <a href="https://huggingface.co/datasets/initiacms/OpticalRS-4M" target="_blank"> OpticalRS-4M</a> |
     🤗 <a href="https://huggingface.co/datasets/initiacms/OpticalRS-13M" target="_blank"> OpticalRS-13M</a> |
-    🤗 <a href="https://huggingface.co/datasets/initiacms/GeoLLaVA-Data" target="_blank">Models</a>
+    🤗 <a href="https://huggingface.co/initiacms/SelectiveMAE" target="_blank">Models</a>
   </p>
   </p>
 
@@ -47,6 +47,7 @@ which significantly accelerates convergence and enhances representation learning
 
 
 ## 🔥 News
+- \[2025.06\] - Models have been released on 🤗[HuggingFace](https://huggingface.co/initiacms/SelectiveMAE).
 - \[2025.06\] - OpticalRS-4M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
 - \[2025.06\] - The pretraining codes of the SelectiveMAE have been released.
 - \[2024.06\] - Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
@@ -56,17 +57,17 @@ which significantly accelerates convergence and enhances representation learning
 
 ## 📚 Contents
 
-- [OpticalRS-4M](#OpticalRS-4M)
-- [OpticalRS-13M](#OpticalRS-13M)
-- [Installation](#gear-installation)
-- [Pretraining](#blue_car-Pretraining)
-- [Downstream Tasks](#rocket-Results-on-downstream-tasks)
+- [OpticalRS-4M](#opticalrs-4m)
+- [OpticalRS-13M](#opticalrs-13m)
+- [Installation](#installation)
+- [Pretraining](#pretraining)
+- [Downstream Tasks](#downstream-tasks)
 - [Citation](#citation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 
-## 🚀 OpticalRS-4M
+## 🚀OpticalRS-4M
 ### Usage
 `OpticalRS-4M` available on 🤗HuggingFace via [OpticalRS-4M](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
 
@@ -94,10 +95,10 @@ For comparison, we use the [**MillionAID**](https://captain-whu.github.io/DiRS/)
 |   OpticalRS-4M    |     [Weights](https://pan.baidu.com/s/1Qrgtv7Dotfb_QQ2GCk6bog?pwd=0330)      |   4 million   |  800  |      **96.88/98.22**      |         **92.44/94.43**         |           **75.40**           |      **67.35**       |   **52.80**  |    **79.41**    |
 
 
-## 🚀 OpticalRS-13M
+## 🚀OpticalRS-13M
 `OpticalRS-13M` available on 🤗HuggingFace via [OpticalRS-13M](https://huggingface.co/datasets/initiacms/OpticalRS-13M). Follow OpticalRS-4M to unzip.
 
-## 🚀 SelectiveMAE
+## 🚀SelectiveMAE
 
 ### :gear: Installation for Pretraining
 Please install the pretraining dependencies in `SelectiveMAE/requirements.txt`:
@@ -135,10 +136,10 @@ First, download the corresponding dataset, then set `opticalrs-4m` or `opticalrs
 | SatLas       |   ICCV'23   |   Swin-B   |      94.96/97.38      |    92.16/94.70    |    74.10   |    67.59   |       -      |      -     |
 | GFM          |   ICCV'23   |   Swin-B   |      95.47/97.09      |    92.73/94.64    |    72.84   |    67.67   |       -      |      -     |
 | RVSA         |   TGRS'23   | ViT-B+RVSA |      97.03/98.50      |    93.93/95.69    |    75.80   |    68.06   |     51.95    |      -     |
-| SelectiveMAE(OpticalRS-4M) |      [Baidu](https://pan.baidu.com/s/1Y4WBj35-HAKeZJe125TG8Q?pwd=0330)     |    ViT-B   |      96.90/98.12      |    93.35/94.58    |    75.70   |    67.78   |     53.05    |   **79.50**  |
-| SelectiveMAE(OpticalRS-4M)|     [Baidu](https://pan.baidu.com/s/1miSlmoeZLjzc_WgXE87Fxg?pwd=0330)      |    ViT-L   |     97.25/98.48    |    94.57/95.77    |   77.80  |    70.31  |     **54.31**  |    79.46   |
-| SelectiveMAE(OpticalRS-13M) |      [Baidu](https://pan.baidu.com/s/1_QNLBGhrViapquDcVZHnkw?pwd=bmzj)     |    ViT-B   |     97.10/98.28     |    93.70/95.48   |   75.80   |    67.69  |     52.68    |   79.44  |
-| SelectiveMAE(OpticalRS-13M)|     [Baidu](https://pan.baidu.com/s/10HJ_kZwW2nxNqDNjJRb6SQ?pwd=eyjn)     |    ViT-L   |    **97.49/98.52**   |   **94.73/96.36**   |   **78.70**  |   **71.75**  |    53.92  |    79.48  |
+| SelectiveMAE(OpticalRS-4M) |      [Baidu](https://pan.baidu.com/s/1Y4WBj35-HAKeZJe125TG8Q?pwd=0330) & [HuggingFace](https://huggingface.co/initiacms/SelectiveMAE)     |    ViT-B   |      96.90/98.12      |    93.35/94.58    |    75.70   |    67.78   |     53.05    |   **79.50**  |
+| SelectiveMAE(OpticalRS-4M)|     [Baidu](https://pan.baidu.com/s/1miSlmoeZLjzc_WgXE87Fxg?pwd=0330) & [HuggingFace](https://huggingface.co/initiacms/SelectiveMAE)      |    ViT-L   |     97.25/98.48    |    94.57/95.77    |   77.80  |    70.31  |     **54.31**  |    79.46   |
+| SelectiveMAE(OpticalRS-13M) |      [Baidu](https://pan.baidu.com/s/1_QNLBGhrViapquDcVZHnkw?pwd=bmzj) & [HuggingFace](https://huggingface.co/initiacms/SelectiveMAE)     |    ViT-B   |     97.10/98.28     |    93.70/95.48   |   75.80   |    67.69  |     52.68    |   79.44  |
+| SelectiveMAE(OpticalRS-13M)|     [Baidu](https://pan.baidu.com/s/10HJ_kZwW2nxNqDNjJRb6SQ?pwd=eyjn) & [HuggingFace](https://huggingface.co/initiacms/SelectiveMAE)     |    ViT-L   |    **97.49/98.52**   |   **94.73/96.36**   |   **78.70**  |   **71.75**  |    53.92  |    79.48  |
 
 # 🔗Citation
 If you find SelectiveMAE helpful, please consider citing:
@@ -153,6 +154,6 @@ If you find SelectiveMAE helpful, please consider citing:
 }
 ```
 
-## 🤝 License
+## 🤝License
 
 This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific operations in this codebase might be with other licenses. Please refer to [LICENSE.md](docs/LICENSE.md) for a more careful check, if you are using our code for commercial matters.
