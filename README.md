@@ -128,9 +128,10 @@ First, download the corresponding dataset, then set `opticalrs-4m` or `opticalrs
 | SatLas       |   ICCV'23   |   Swin-B   |      94.96/97.38      |    92.16/94.70    |    74.10   |    67.59   |       -      |      -     |
 | GFM          |   ICCV'23   |   Swin-B   |      95.47/97.09      |    92.73/94.64    |    72.84   |    67.67   |       -      |      -     |
 | RVSA         |   TGRS'23   | ViT-B+RVSA |      97.03/98.50      |    93.93/95.69    |    75.80   |    68.06   |     51.95    |      -     |
-| [SelectiveMAE](https://pan.baidu.com/s/1Y4WBj35-HAKeZJe125TG8Q?pwd=0330) |      -      |    ViT-B   |      96.78/98.12      |    93.35/94.58    |    75.70   |    67.78   |     53.05    |   **79.50**  |
-| [SelectiveMAE ](https://pan.baidu.com/s/1miSlmoeZLjzc_WgXE87Fxg?pwd=0330)|      -      |    ViT-L   |     **97.25/98.48**     |    **94.57/95.77**    |   **77.80**  |    **70.31**   |     **54.31**  |    79.46   |
-
+| SelectiveMAE(OpticalRS-4M) |      [Baidu](https://pan.baidu.com/s/1Y4WBj35-HAKeZJe125TG8Q?pwd=0330)     |    ViT-B   |      96.90/98.12      |    93.35/94.58    |    75.70   |    67.78   |     53.05    |   **79.50**  |
+| SelectiveMAE(OpticalRS-4M)|     [Baidu](https://pan.baidu.com/s/1miSlmoeZLjzc_WgXE87Fxg?pwd=0330)      |    ViT-L   |     97.25/98.48    |    94.57/95.77    |   77.80  |    70.31  |     **54.31**  |    79.46   |
+| SelectiveMAE(OpticalRS-13M) |      [Baidu](https://pan.baidu.com/s/1_QNLBGhrViapquDcVZHnkw?pwd=bmzj)     |    ViT-B   |     97.10/98.28     |    93.70/95.48   |   75.80   |    67.69  |     52.68    |   79.44  |
+| SelectiveMAE(OpticalRS-13M)|     [Baidu](https://pan.baidu.com/s/10HJ_kZwW2nxNqDNjJRb6SQ?pwd=eyjn)     |    ViT-L   |    **97.49/98.52**   |   **94.73/96.36**   |   **78.70**  |   **71.75**  |    53.92  |    79.48  |
 
 # 🔗Citation
 If you find SelectiveMAE helpful, please consider citing:
