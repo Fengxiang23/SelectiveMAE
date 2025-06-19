@@ -21,7 +21,6 @@
 <sup>5</sup>Nankai University&nbsp;&nbsp;
 <sup>6</sup>The University of Sydney
 
-  </h5>
   <p>
     📃 <a href="https://arxiv.org/abs/2406.11933" target="_blank">Paper</a> |
     🤗 <a href="https://huggingface.co/datasets/initiacms/OpticalRS-4M" target="_blank"> OpticalRS-4M</a> |
