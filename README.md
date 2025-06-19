@@ -32,7 +32,7 @@ which significantly accelerates convergence and enhances representation learning
 ## ✅ Todo List
 - [x] Initial release of checkpoint of SelectiveMAE. 
 - [x] Pretraining codes and configs for SelectiveMAE have be released. 
-- [ ] OpticalRS-4M dataset has be released. 
+- [x] OpticalRS-4M dataset has be released. 
 - [ ] OpticalRS-13M dataset will be released. 
 - [ ] Codes and configs for downstream tasks of SelectiveMAE, Scene Classification. 
 - [ ] Codes and configs for downstream tasks of SelectiveMAE, Object Detection and Semantic Segmentation.
@@ -40,7 +40,7 @@ which significantly accelerates convergence and enhances representation learning
 
 
 ## 🔥 News
-
+- \[2025.06\] - OpticalRS-4M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
 - \[2025.06\] - The pretraining codes of the SelectiveMAE have been released.
 - \[2024.06\] - Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
 - \[2024.06\] - The training logs of the SelectiveMAE have been released.
