@@ -12,7 +12,7 @@
     Long Lan<sup>1,‡</sup>&nbsp;&nbsp;
     Wenjing Yang<sup>1,‡</sup>&nbsp;&nbsp;&nbsp;
     Jing Zhang<sup>3,‡</sup>&nbsp
-    </br></br>
+    </br>
   <sup>1</sup> National University of Defense Technology&nbsp;&nbsp;&nbsp;
   <sup>2</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
   <sup>3</sup>Wuhan University&nbsp;&nbsp;
