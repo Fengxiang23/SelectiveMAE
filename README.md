@@ -47,6 +47,7 @@ which significantly accelerates convergence and enhances representation learning
 
 
 ## 🔥 News
+- \[2025.06\] - SelectiveMAE has been accepted by ICCV2025.
 - \[2025.06\] - OpticalRS-13M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-13M).
 - \[2025.06\] - Models have been released on 🤗[HuggingFace](https://huggingface.co/initiacms/SelectiveMAE).
 - \[2025.06\] - OpticalRS-4M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
