@@ -17,6 +17,7 @@
   <sup>2</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
   <sup>3</sup>Wuhan University&nbsp;&nbsp;
 <sup>4</sup>Nankai University&nbsp;&nbsp;
+<div align='center' style="font-size: larger; "><strong>ICCV 2025</strong></div>
 
   <p align="center">
     📃 <a href="https://arxiv.org/abs/2406.11933" target="_blank">Paper</a> |
