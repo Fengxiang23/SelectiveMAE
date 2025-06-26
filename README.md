@@ -34,7 +34,7 @@ is designed to fully leverage the representation learning capabilities of MIM me
 which significantly accelerates convergence and enhances representation learning compared to the original MIM approach.
 
 
-## ✅ Todo List
+## ✅ To do List
 - [x] Initial release of checkpoint of SelectiveMAE. 
 - [x] Pretraining codes and configs for SelectiveMAE have be released. 
 - [x] OpticalRS-4M dataset has be released. 
