@@ -1,7 +1,7 @@
 
 <p align="center">
 
-  <h2 align="center"><strong>Scaling Efficient Masked Autoencoder Learning on Large Remote Sensing Dataset</strong></h2>
+  <h2 align="center"><strong>	Harnessing Massive Satellite Imagery with Efficient Masked Image Modeling</strong></h2>
 
   <p align="center">
      Fengxiang Wang<sup>1</sup>&nbsp;&nbsp;&nbsp;
@@ -9,7 +9,8 @@
     Di Wang<sup>3</sup>&nbsp;&nbsp;&nbsp;
     Zonghao Guo<sup>4</sup></br>
     Zhenyu Zhong<sup>5</sup>&nbsp;&nbsp;&nbsp;
-    Long Lan<sup>1,‡</sup>&nbsp;&nbsp;
+    Wenjing Yang<sup>1,‡</sup>&nbsp;&nbsp;&nbsp;
+    Long Lan<sup>1</sup>&nbsp;&nbsp;
     Jing Zhang<sup>6,‡</sup>&nbsp
     </br></br>
   <sup>1</sup> National University of Defense Technology&nbsp;&nbsp;&nbsp;
