@@ -15,7 +15,7 @@
     </br></br>
   <sup>1</sup> National University of Defense Technology&nbsp;&nbsp;&nbsp;
   <sup>2</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
-  <sup>3</sup>Wuhan University&nbsp;&nbsp;</br>
+  <sup>3</sup>Wuhan University&nbsp;&nbsp;
 <sup>4</sup>Nankai University&nbsp;&nbsp;
 
   <p align="center">
