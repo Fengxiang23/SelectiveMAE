@@ -11,8 +11,6 @@
     Zhenyu Zhong<sup>5</sup>&nbsp;&nbsp;&nbsp;
     Long Lan<sup>1,‡</sup>&nbsp;&nbsp;
     Jing Zhang<sup>6,‡</sup>&nbsp
-    Zhiyuan Liu<sup>2</sup> &nbsp;&nbsp;
-    Maosong Sun<sup>2</sup>&nbsp;&nbsp;&nbsp;
     </br></br>
   <sup>1</sup> National University of Defense Technology&nbsp;&nbsp;&nbsp;
   <sup>2</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
@@ -47,7 +45,7 @@ which significantly accelerates convergence and enhances representation learning
 
 
 ## 🔥 News
-- \[2025.06\] - SelectiveMAE has been accepted by ICCV2025.
+- \[2025.06\] - **SelectiveMAE has been accepted by ICCV2025.**
 - \[2025.06\] - OpticalRS-13M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-13M).
 - \[2025.06\] - Models have been released on 🤗[HuggingFace](https://huggingface.co/initiacms/SelectiveMAE).
 - \[2025.06\] - OpticalRS-4M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
