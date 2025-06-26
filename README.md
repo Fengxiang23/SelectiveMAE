@@ -7,18 +7,16 @@
      Fengxiang Wang<sup>1</sup>&nbsp;&nbsp;&nbsp;
     Hongzhen Wang<sup>2,‡</sup>&nbsp;&nbsp;&nbsp;
     Di Wang<sup>3</sup>&nbsp;&nbsp;&nbsp;
-    Zonghao Guo<sup>4</sup></br>
-    Zhenyu Zhong<sup>5</sup>&nbsp;&nbsp;&nbsp;
+    Zonghao Guo<sup>2</sup></br>
+    Zhenyu Zhong<sup>4</sup>&nbsp;&nbsp;&nbsp;
     Wenjing Yang<sup>1,‡</sup>&nbsp;&nbsp;&nbsp;
     Long Lan<sup>1</sup>&nbsp;&nbsp;
-    Jing Zhang<sup>6,‡</sup>&nbsp
+    Jing Zhang<sup>3,‡</sup>&nbsp
     </br></br>
   <sup>1</sup> National University of Defense Technology&nbsp;&nbsp;&nbsp;
   <sup>2</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
   <sup>3</sup>Wuhan University&nbsp;&nbsp;</br>
-<sup>4</sup>University of Chinese Academic of Sciences&nbsp;&nbsp;
-<sup>5</sup>Nankai University&nbsp;&nbsp;
-<sup>6</sup>The University of Sydney
+<sup>4</sup>Nankai University&nbsp;&nbsp;
 
   <p align="center">
     📃 <a href="https://arxiv.org/abs/2406.11933" target="_blank">Paper</a> |
