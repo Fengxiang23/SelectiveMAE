@@ -14,7 +14,7 @@
     Jing Zhang<sup>3,‡</sup>&nbsp
     </br>
   <sup>1</sup> National University of Defense Technology&nbsp;&nbsp;&nbsp;
-  <sup>2</sup>Tsinghua University &nbsp;&nbsp;&nbsp;
+  <sup>2</sup>Tsinghua University &nbsp;&nbsp;&nbsp;</br>
   <sup>3</sup>Wuhan University&nbsp;&nbsp;
 <sup>4</sup>Nankai University&nbsp;&nbsp;
 <div align='center' style="font-size: larger; "><strong>ICCV 2025</strong></div>
