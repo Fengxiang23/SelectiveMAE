@@ -142,13 +142,13 @@ First, download the corresponding dataset, then set `opticalrs-4m` or `opticalrs
 If you find SelectiveMAE helpful, please consider citing:
 
 ```latex
-@article{wang2024scaling,
-  title={Scaling efficient masked autoencoder learning on large remote sensing dataset},
-  author={Wang, Fengxiang and Wang, Hongzhen and Wang, Di and Guo, Zonghao and Zhong, Zhenyu and Lan, Long and Zhang, Jing and Liu, Zhiyuan and Sun, Maosong},
-  journal={arXiv e-prints},
-  pages={arXiv--2406},
-  year={2024}
+@article{selectivemae,
+      title={Harnessing Massive Satellite Imagery with Efficient Masked Image Modeling}, 
+      author={Fengxiang Wang and Hongzhen Wang and Di Wang and Zonghao Guo and Zhenyu Zhong and Long Lan and Wenjing Yang and Jing Zhang},
+      year={2025},
+      journal={arXiv preprint arXiv:2406.11933},
 }
+
 ```
 
 ## 🤝License
