@@ -45,14 +45,14 @@ which significantly accelerates convergence and enhances representation learning
 
 
 ## 🔥 News
-* **`2025.07`** - The classification codes have been released.
-* **`2025.06`** - **SelectiveMAE has been accepted by ICCV2025.**
-* **`2025.06`** - OpticalRS-13M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-13M).
-* **`2025.06`** - Models have been released on 🤗[HuggingFace](https://huggingface.co/initiacms/SelectiveMAE).
-* **`2025.06`** - OpticalRS-4M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
-* **`2025.06`** - The pretraining codes of the SelectiveMAE have been released.
-* **`2024.06`** - Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
-* **`2024.06`** - The training logs and checkpoints of the SelectiveMAE have been released.
+* **`2025.07`** : The classification codes have been released.
+* **`2025.06`** : **SelectiveMAE has been accepted by ICCV2025.**
+* **`2025.06`** : OpticalRS-13M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-13M).
+* **`2025.06`** : Models have been released on 🤗[HuggingFace](https://huggingface.co/initiacms/SelectiveMAE).
+* **`2025.06`** : OpticalRS-4M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
+* **`2025.06`** : The pretraining codes of the SelectiveMAE have been released.
+* **`2024.06`** : Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
+* **`2024.06`** : The training logs and checkpoints of the SelectiveMAE have been released.
 
 
 
@@ -61,6 +61,7 @@ which significantly accelerates convergence and enhances representation learning
 - [OpticalRS-4M](#opticalrs-4m)
 - [OpticalRS-13M](#opticalrs-13m)
 - [SelectiveMAE](#selectivemae)
+- [Classification](#classification)
 - [Citation](#citation)
 - [License](#license)
 
@@ -138,6 +139,21 @@ First, download the corresponding dataset, then set `opticalrs-4m` or `opticalrs
 | SelectiveMAE(OpticalRS-4M)|     [Baidu](https://pan.baidu.com/s/1miSlmoeZLjzc_WgXE87Fxg?pwd=0330) & [HuggingFace](https://huggingface.co/initiacms/SelectiveMAE)      |    ViT-L   |     97.25/98.48    |    94.57/95.77    |   77.80  |    70.31  |     **54.31**  |    79.46   |
 | SelectiveMAE(OpticalRS-13M) |      [Baidu](https://pan.baidu.com/s/1_QNLBGhrViapquDcVZHnkw?pwd=bmzj) & [HuggingFace](https://huggingface.co/initiacms/SelectiveMAE)     |    ViT-B   |     97.10/98.28     |    93.70/95.48   |   75.80   |    67.69  |     52.68    |   79.44  |
 | SelectiveMAE(OpticalRS-13M)|     [Baidu](https://pan.baidu.com/s/10HJ_kZwW2nxNqDNjJRb6SQ?pwd=eyjn) & [HuggingFace](https://huggingface.co/initiacms/SelectiveMAE)     |    ViT-L   |    **97.49/98.52**   |   **94.73/96.36**   |   **78.70**  |   **71.75**  |    53.92  |    79.48  |
+
+## 🚀Classification
+
+We evaluate the pretrained weights of SelectiveMAE on the AID and NWPU datasets using different training ratios. We have released configuration files for different datasets under the `Classification` folder. Please use the files in the `Classification/AID` and `Classification/NWPU-RESISC45` subfolders to run the experiments with different training ratio (TR) settings for the respective datasets.
+
+The classification experiments can be completed on a single GPU, run the following:
+```sh
+torchrun --nproc_per_node=1 --nnodes 1 --master_port 1888 \
+--dataset 'aid' --model 'vit_base_patch16' --postfix 'sota' \
+--batch_size 1024 --epochs 100 --warmup_epochs 5 \
+--blr 1e-3  --weight_decay 0.05 --split 19  --tag 0 --exp_num 1 \
+--data_path 'your_dataset_path'     \
+--finetune 'your_checkpoint.pth'
+```
+The 'split' can be changed to your setting, like 19/28/55.
 
 # 🔗Citation
 If you find SelectiveMAE helpful, please consider citing:
