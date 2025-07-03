@@ -45,14 +45,14 @@ which significantly accelerates convergence and enhances representation learning
 
 
 ## 🔥 News
-- `\[2025.07\]` - The classification codes have been released.
-- `\[2025.06\]` - **SelectiveMAE has been accepted by ICCV2025.**
-- `\[2025.06\]` - OpticalRS-13M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-13M).
-- `\[2025.06\]` - Models have been released on 🤗[HuggingFace](https://huggingface.co/initiacms/SelectiveMAE).
-- `\[2025.06\]` - OpticalRS-4M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
-- `\[2025.06\]` - The pretraining codes of the SelectiveMAE have been released.
-- `\[2024.06\]` - Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
-- `\[2024.06\]` - The training logs and checkpoints of the SelectiveMAE have been released.
+* **`2025.07`** - The classification codes have been released.
+* **`2025.06`** - **SelectiveMAE has been accepted by ICCV2025.**
+* **`2025.06`** - OpticalRS-13M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-13M).
+* **`2025.06`** - Models have been released on 🤗[HuggingFace](https://huggingface.co/initiacms/SelectiveMAE).
+* **`2025.06`** - OpticalRS-4M has been released on 🤗[HuggingFace](https://huggingface.co/datasets/initiacms/OpticalRS-4M).
+* **`2025.06`** - The pretraining codes of the SelectiveMAE have been released.
+* **`2024.06`** - Paper has been released on [arxiv](https://arxiv.org/abs/2406.11933).
+* **`2024.06`** - The training logs and checkpoints of the SelectiveMAE have been released.
 
 
 
