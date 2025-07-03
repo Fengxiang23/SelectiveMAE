@@ -153,7 +153,7 @@ torchrun --nproc_per_node=1 --nnodes 1 --master_port 1888 \
 --data_path 'your_dataset_path'     \
 --finetune 'your_checkpoint.pth'
 ```
-The 'split' can be changed to your setting, like 19/28/55.
+The `--split` can be changed to your setting, like 19/28/55.
 
 # 🔗Citation
 If you find SelectiveMAE helpful, please consider citing:
